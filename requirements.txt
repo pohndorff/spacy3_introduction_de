@@ -1,2 +1,4 @@
-spacy==3.0.1
-pytest==6.2.2
+spacy~=3.0.1
+dvc~=1.11.15
+pytest~=6.2.2
+setuptools~=53.0.0

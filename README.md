@@ -1,4 +1,4 @@
-# Beschreibung
+# SpaCy v.3.0 - Viele Tolle Neuerungen
 
 Dies ist ein Projekt mit dem Ziel neue Features in [spacy v3.0](https://github.com/explosion/spaCy) kennenzulernen und an Beispielen zu verproben.
 
@@ -85,7 +85,9 @@ Usage: python -m spacy project run [WORKFLOW]
 
 all   convert -> train -> evaluate -> package
 ```
-> ⚠ **ACHTUNG** ⚠ Das Beispielprojekt funktioniert in der von mir verwendeten Version nicht betriebssystemübergreifend (siehe [issue](https://github.com/explosion/spaCy/issues/6957)). Die Skripte sind mit UNIX-Kommandos gespickt, welche nicht ohne weiteres Zutun unter Windows laufen. Wer im Terminal die Kommandos nicht ausführen kann, kann auf [gitbash](https://gitforwindows.org/) zurückgreifen. In Pycharm unter `File`>`Settings`>`Tools`>`Terminal` kann die `cmd.exe` gegen den `gitbash.exe`-Pfad ausgetauscht werden. Gitbash öffnet sich zwar nun in einem neuen Fenster, was weniger schön ist, aber immerhin laufen die Kommandos durch.
+> ⚠ **ACHTUNG** ⚠ Das Beispielprojekt funktioniert in der von mir verwendeten Version nicht betriebssystemübergreifend (siehe [issue](https://github.com/explosion/spaCy/issues/6957)). Die Skripte sind mit UNIX-Kommandos gespickt, welche nicht ohne weiteres Zutun unter Windows laufen. Wer im Terminal die Kommandos nicht ausführen kann, kann auf [gitbash](https://gitforwindows.org/) zurückgreifen. 
+> 
+>Öffnet Git Bash im Projektordner und aktiviert die virtuelle Umgebung mit `source venv/Scripts/activate`.
 
 
 Nun können wir die spacy Kommandos durchführen. Das ganze machen wir Schritt für Schritt wie im Workflow `all` dargestellt: `convert` -> `train` -> `evaluate` -> `package`. Für die 20 Epochen Training in `train` hat es bei mir sicherlich eine halbe Stunde gebraucht. Also haltet Kaffee oder etwas zu lesen bereit.
